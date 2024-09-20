@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splaceActivity">
+
+    <ImageView
+        android:id="@+id/imageViewsplace"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="60dp"
+        app:srcCompat="@drawable/splace" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" YR BHAGAT "
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/coral"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black" />
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/bhajan"
+        app:cardElevation="4dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/salmon"
+            android:padding="8dp">
+
+            <!-- Book Image -->
+            <ImageView
+                android:id="@+id/book_imagebhajan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="God"
+                android:src="@drawable/ganesh"
+                android:layout_marginEnd="8dp"
+                />
+
+            <!-- Title and Details (Texts) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/book_imagebhajan"
+                android:orientation="vertical">
+
+                <!-- Chapter Title -->
+                <TextView
+                    android:id="@+id/chapter_title_bhajan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" भजन "
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <!-- Chapter Info -->
+                <TextView
+                    android:id="@+id/chapter_info11_bhajan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" भजन वन्दन करते है "
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <!-- Check Icon -->
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/deep_pink"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:text="Share"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

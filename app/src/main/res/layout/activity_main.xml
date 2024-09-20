@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/ganesh"
+        app:cardElevation="4dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cornsilk"
+            android:padding="8dp">
+
+            <!-- Book Image -->
+            <ImageView
+                android:id="@+id/book_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="God"
+                android:src="@drawable/ganesh"
+                android:layout_marginEnd="8dp"
+                />
+
+            <!-- Title and Details (Texts) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/book_image1"
+                android:orientation="vertical">
+
+                <!-- Chapter Title -->
+                <TextView
+                    android:id="@+id/chapter_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="श्री गणेश भजन "
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <!-- Chapter Info -->
+                <TextView
+                    android:id="@+id/chapter_info11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" गजानंद वन्दन करते है "
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <!-- Check Icon -->
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/shiv"
+            app:cardElevation="4dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornsilk"
+                android:padding="8dp">
+
+                <!-- Book Image -->
+                <ImageView
+                    android:id="@+id/book_image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/shiv"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="DuplicateIds" />
+
+                <!-- Title and Details (Texts) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/book_image2"
+                    android:orientation="vertical">
+
+                    <!-- Chapter Title -->
+                    <TextView
+                        android:id="@+id/chapter_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" शिव चालीसा "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <!-- Chapter Info -->
+                    <TextView
+                        android:id="@+id/chapter_info12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  शिव चालीसा वन्दन करते है "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <!-- Check Icon -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/ram"
+            app:cardElevation="4dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornsilk"
+                android:padding="8dp">
+
+                <!-- Book Image -->
+                <ImageView
+                    android:id="@+id/book_image3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ram"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="DuplicateIds" />
+
+                <!-- Title and Details (Texts) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/book_image3"
+                    android:orientation="vertical">
+
+                    <!-- Chapter Title -->
+                    <TextView
+                        android:id="@+id/chapter_title21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  राम चालीसा  "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <!-- Chapter Info -->
+                    <TextView
+                        android:id="@+id/chapter_info23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   राम चालीसा वन्दन करते है "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <!-- Check Icon -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/hanuman"
+            app:cardElevation="4dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornsilk"
+                android:padding="8dp">
+
+                <!-- Book Image -->
+                <ImageView
+                    android:id="@+id/book_image4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/hunuman"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="DuplicateIds" />
+
+                <!-- Title and Details (Texts) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/book_image4"
+                    android:orientation="vertical">
+
+                    <!-- Chapter Title -->
+                    <TextView
+                        android:id="@+id/chapter_title26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  हनुमान चालीसा  "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <!-- Chapter Info -->
+                    <TextView
+                        android:id="@+id/chapter_info25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  हनुमान चालीसा  वन्दन करते है "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <!-- Check Icon -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/mahamrityunjay"
+            app:cardElevation="4dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornsilk"
+                android:padding="8dp">
+
+                <!-- Book Image -->
+                <ImageView
+                    android:id="@+id/book_image5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/shiv1"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="DuplicateIds" />
+
+                <!-- Title and Details (Texts) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/book_image5"
+                    android:orientation="vertical">
+
+                    <!-- Chapter Title -->
+                    <TextView
+                        android:id="@+id/chapter_title27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" महामृत्युंजय मंत्र    "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <!-- Chapter Info -->
+                    <TextView
+                        android:id="@+id/chapter_info28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="महामृत्युंजय मंत्र वन्दन करते है "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <!-- Check Icon -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/shanidev"
+            app:cardElevation="4dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornsilk"
+                android:padding="8dp">
+
+                <!-- Book Image -->
+                <ImageView
+                    android:id="@+id/book_image6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/shani"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="DuplicateIds" />
+
+                <!-- Title and Details (Texts) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/book_image6"
+                    android:orientation="vertical">
+
+                    <!-- Chapter Title -->
+                    <TextView
+                        android:id="@+id/chapter_title29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  श्री शनि चालीसा  "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <!-- Chapter Info -->
+                    <TextView
+                        android:id="@+id/chapter_info30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" श्री शनि चालीसा वन्दन करते है "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <!-- Check Icon -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
